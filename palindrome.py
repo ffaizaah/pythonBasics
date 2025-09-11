@@ -1,4 +1,5 @@
-word=input("enter the word")
+wrd=input("enter the word")
+word=wrd.lower()
 k,l=0,(int)(len(word)/2)
 for i in range(l):
     n1=i
@@ -10,3 +11,4 @@ for i in range(l):
         k+=1
 if(k==l):
     print("palindrome")
+
